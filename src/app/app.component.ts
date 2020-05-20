@@ -9,11 +9,5 @@ import { ApiService } from './api.service';
 })
 export class AppComponent {
   title = 'TiendaAngular';
-
-  constructor(public json: ApiService) {
-    this.json.getData('http://demo6292426.mockable.io/products').subscribe((res: any) => {
-      console.log(res);
-    })
-    
-  }
+  
 }
