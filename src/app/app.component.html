@@ -1,1 +1,24 @@
+<p>tienda works!</p>
+<section id="filtros">
+  <h4>Filtros</h4>
+  <label class="mdl" for="checkbox-1" onchange="filtarDatosMujer(this.value)">
+    <input type="checkbox" id="checkbox1">
+    <span class="mdl-checkbox__label">Mujer</span>
+  </label>
+  <label class="mdl" for="checkbox-2" onchange="filtarDatosHombre(this.value)">
+    <input type="checkbox" id="checkbox2">
+    <span class="mdl-checkbox__label">Hombre</span>
+  </label>
+  <label class="mdl" for="checkbox-3" onchange="filtarDatosJoven(this.value)">
+    <input type="checkbox" id="checkbox3">
+    <span class="mdl-checkbox__label">Joven</span>
+  </label>
+  <label class="mdl" for="checkbox-3" onchange="mostrarProducto(this.value)">
+    <input type="checkbox" id="checkbox4">
+    <span class="mdl-checkbox__label">Todos</span>
+  </label>
+</section>
+<a routerLink = "/carro">Carro</a>
+<br>
+<a routerLink = "/tienda">Productos</a>
 <router-outlet></router-outlet>

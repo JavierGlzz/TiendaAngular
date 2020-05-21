@@ -1,14 +1,14 @@
-:root{
-  font-family: Arial, Helvetica, sans-serif;
+.contenedorProductos{
   display: flex;
-  flex-flow: column wrap;
-  align-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
 }
-
-.contenedorProductos > p{
+.contenedorProductos > p {
   background-color: blanchedalmond;
   width: 200px;
   height: 200px;
   border: 2px solid black;
 }
+
 

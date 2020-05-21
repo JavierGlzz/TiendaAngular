@@ -1,5 +1,6 @@
-<p>tienda works!</p>
 <div class="contenedorProductos">
-  <p *ngFor = "let dato of datosJson"><app-producto [guid] = "dato.guid"></app-producto></p>
+  <p *ngFor = "let dato of datosJson">
+    <app-producto [guid] = "dato.guid"></app-producto>
+  </p>
 </div>
-
+<app-modal></app-modal>
